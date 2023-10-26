@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing: border-box;
+}
+body{
+    font-family:monserrat;
+    background-color:#24263B;
+}
+nav{
+    background-color:#1F2235;
+    height:80px;
+    width:100%;
+}
+Div.logo{
+    color:white;
+    line-height:80px;
+    padding-left:100px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin:9px;
+   
+}
+nav ul li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+   padding:10px 13px;
+}
+nav ul{
+    float:right;
+    margin-right:80px;
+    margin-top:-60px;
+}
+
+nav a:hover{
+    background-color:red;
+    transition: 0.5s;
+}
+#social-icons{
+    
+    padding-top:120px;
+    padding-left:80px;
+}
+.icons{
+margin:30px 15px;
+    font-size:19px;
+    padding:8px 10px;
+    border:2px solid red;
+    display: inline-block;
+    color:#fff;
+    border-radius:50%;  
+}
+.icons:hover{
+    background-color:red;
+    transition: 0.5s;
+   
+}
+#Home, h2{
+    color: white;
+    text-align: left;
+    padding-left:50px;
+    padding-top:20px;
+    font-size:45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#name{
+    width:48rem;
+    padding-left:50px;
+    margin-top:40px;
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.reel{
+    margin-top:32px;
+    margin-left:35px;
+width:11em;
+height:4em;
+border-radius: 3em;
+background: inherit;
+border: 4px solid red;
+font-family: Arial, Helvetica, sans-serif;
+color:#fff;
+}
+.reel:hover{
+    background-color:red;
+    transition: 0.5s;
+}
+#youtube{
+    margin-top:-3.5%;
+    margin-left:200px;
+    padding-top:9px;
+    padding-left:44px;
+    width:5em;
+    font-size:20px;
+    height:45px;
+    border-radius: 3em;
+    background:red;
+    border:none; 
+}
+.image{
+    margin-left:64%;
+    margin-top:-32%;
+}
+
+   
