@@ -9,6 +9,10 @@ body{
     font-family:monserrat;
     background-color:#24263B;
 }
+header{
+    width:100%;
+    position: fixed;
+}
 nav{
     background-color:#1F2235;
     height:80px;
@@ -37,7 +41,7 @@ nav ul{
     margin-top:-60px;
 }
 
-nav a:hover{
+nav ul a:hover{
     background-color:red;
     transition: 0.5s;
 }
@@ -47,7 +51,7 @@ nav a:hover{
     padding-left:80px;
 }
 .icons{
-margin:30px 15px;
+margin:30px 13px;
     font-size:19px;
     padding:8px 10px;
     border:2px solid red;
@@ -60,13 +64,13 @@ margin:30px 15px;
     transition: 0.5s;
    
 }
-#Home, h2{
-    color: white;
+#Home,h2{
+     color: white;
     text-align: left;
     padding-left:50px;
     padding-top:20px;
     font-size:45px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #name{
@@ -92,7 +96,7 @@ color:#fff;
     transition: 0.5s;
 }
 #youtube{
-    margin-top:-3.5%;
+    margin-top:-4%;
     margin-left:200px;
     padding-top:9px;
     padding-left:44px;
@@ -105,7 +109,76 @@ color:#fff;
 }
 .image{
     margin-left:64%;
-    margin-top:-32%;
+    margin-top:-35%;
+}
+#Services{
+    text-align: center;
+}
+#small{
+    padding-right:20px;
+    color: red;
+    font-size:21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+   #bold{
+     text-align: center;
+    padding-right:60px;
+font-size:60px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   #services,p{
+    margin-top:20px;
+    color: #fff;
+    width:57rem;
+    padding-left:310px;
+   }
+
+   .parentdiv {
+    margin-top: 5rem;
+    margin-left: 6rem;
+   }
+   #grid{
+    display: flex;
+   }
+.item{
+    width:310px;
+    height:47.5vh;
+    background:#1F2235;
+    
+    margin-left:2rem;
+    border-radius: 16px;
+    -webkit-transition: .8s linear;
+    -o-transition: .8s linear;
+    transition: .8s linear;
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+}
+.item:hover {
+    background-color: red;
+    transition-duration: 1s;
+   
+}
+#gridd{
+    display: flex;
+    margin-top: 2rem;
+}
+.icons2{
+  margin-top:15%;
+  width:40%;
+font-size:30px;
+color:rgba(221, 35, 35, 0.678);
 }
 
-   
+#letter-head{
+    margin-left:-18px;
+    font-size:21px;
+    color:#fff;
+}
+#last{
+  margin-top:5%;
+    margin-left:-284px;
+    width:33rem;
+  color: #fff;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size:16px;
+}
