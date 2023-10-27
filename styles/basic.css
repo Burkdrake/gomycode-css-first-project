@@ -107,6 +107,9 @@ color:#fff;
     background:red;
     border:none; 
 }
+.play-btn-popup-video{
+    color: #fff;
+}
 .image{
     margin-left:64%;
     margin-top:-35%;
